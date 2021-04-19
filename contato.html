@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contatos</title>
+    <link rel="stylesheet" href="arquivos/css/style.css" />
   </head>
-  <body>
-    <ul>
+  <body class="contato">
+    <ul class="menu">
       <li>
         <a href="index.html">Home</a>
       </li>
@@ -15,37 +16,74 @@
         <a href="contato.html">contato</a>
       </li>
       <li>
-          <a href="agenda.html">agenda</a>
+        
+        <a class="link link1" href="https://www.google.com/intl/pt-BR/calendar/about/" target="_blank">agenda online</a>
       </li>
     </ul>
-    <h1>Entre em conato comigo</h1>
 
-    <form>
-      <label for="Nome">Nome:</label><br />
-      <input type="text" id="nome" />
-      <br /><br />
-      <label for="Email:">E-mail:</label><br />
-      <input type="email" id="email" />
-      <br /><br />
-      <label for="Assunto:">assunto:</label><br />
-      <textarea name="assunto" id="assunto" cols="60" rows="10"></textarea>
-      <br /><br />
-      <button>enviar</button>
-    </form>
-    <h3>whatsapp</h3>
-    <p>(11)91111-1111</p>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <h3>endereço</h3>
-    <p>Rua Cantareira,306</p>
-    <p>São Paulo-SP</p>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7410569527838!2d-46.63157468538432!3d-23.54181406675493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f8c61020205%3A0x9ae474c606fef4!2sMercado%20Municipal%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1618595843117!5m2!1spt-BR!2sbr"
-      width="400"
-      height="150"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-    >
-    </iframe>
+    <div class="container video">
+
+      <div>
+        <form>
+          <label for="Nome">Nome:</label><br />
+          <input type="text" id="nome" />
+          <br /><br />
+          <label for="Email:">E-mail:</label><br />
+          <input type="email" id="email" />
+          <br /><br />
+          <label for="Assunto:">assunto:</label><br />
+          <textarea name="assunto" id="assunto" cols="60" rows="10"></textarea>
+          <br /><br />
+          <button>enviar</button>
+        </form>
+      </div>
+      
+      <div class="margem">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7410569527838!2d-46.63157468538432!3d-23.54181406675493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f8c61020205%3A0x9ae474c606fef4!2sMercado%20Municipal%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1618595843117!5m2!1spt-BR!2sbr"
+        width="600"
+        height="325"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      >
+      </iframe>
+      </div>
+    </div>
+    
+    <hr />
+    <!-- sepaaração de sessão -->
+    <footer>
+      <div class="container">
+        <a href="http://www.facebook.com" target="_blank">
+          <img
+            class="tm-social borda"
+            src="arquivos/imagens/facebook.png"
+            alt="logo do facebook"
+          />
+        </a>
+        <a href="http://www.instagram.com" target="_blank">
+          <img
+            class="tm-social borda"
+            src="arquivos/imagens/instagram.png"
+            alt="logo do instagram"
+          />
+        </a>
+        <a href="http://www.whatsapp.com" target="_blank">
+          <img
+            class="tm-social borda"
+            src="arquivos/imagens/whatsapp.png"
+            alt="logo do whatsapp"
+          />
+        </a>
+      </div>
+      <p class="center">
+        Imagens meramente ilustrativas. Copyright 2021 &copy; Barbearia La Máfia
+        – Todos os direitos reservados. É proibida a reprodução parcial ou total
+        do conteúdo desse site.<br />
+      </p>
+    </footer>
   </body>
 </html>
